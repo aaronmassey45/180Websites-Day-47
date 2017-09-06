@@ -1,0 +1,26 @@
+body, html, main {
+  background: #D2B887;
+}
+
+#myCarousel img {
+  height: 70vh;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.rotate {
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+}
+
+.stuff {
+  visibility: hidden;
+}
